@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.on_this_day{
+    padding-left: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Patua One;
+    font-size: 2rem;
+    border-right: 2px solid rgb(66, 66, 66);
+    padding-right: 1rem;
+    flex-direction: row;
+    cursor: pointer;
+}
+.img1{
+    width: 3rem;
+    height: 3rem;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/55/61/abstract-colorful-circle-shape-on-black-background-vector-7975561.jpg");
+    background-size: cover;
+    margin-right: 1rem;
+}
+.n{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background-color: rgba(34, 34, 34, 0.747);
+    border-right: 2px solid rgb(65, 65, 65);
+
+    font-weight: 600;
+}
+.n a{
+    text-decoration: none;
+    color: white;
+}
+.top div i{
+    padding-right: 1rem;
+    opacity: .7;
+    font-size: 1.8rem;
+}
+.sport{
+    border-bottom: 5px solid #ffa238;
+}
+.history{
+    border-bottom: 5px solid #0061e0;
+}
+.film_tv{
+    border-bottom: 5px solid #00dbeb;
+}
+.music{
+    border-bottom: 5px solid #009600;
+}
+.sport:hover{
+    background-color: #ffa238;
+}
+.history:hover{
+    background-color: #0061e0;
+}
+.film_tv:hover{
+    background-color: #00dbeb;
+}
+.music:hover{
+    background-color: #009600;
+}
+.n:hover i{
+    opacity: 1;
+}
+.mid{
+    margin-top: 10vh;
+    width: 100%;
+    height: 30vh;
+    background-image: url("https://img.wallscloud.net/uploads/thumb/480417646/clouds-performing-abstract-ht-1024x576-MM-80.webp");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sharch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sharch p{
+    font-family: cursive;
+    text-shadow: 5px 5px 20px black;
+    font-size: 2.5rem;
+    color: white;
+}
+.main_contener{
+    width: 100%;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.this_day{
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+    
+}
+.tag_date{
+    height: 100%;
+    width: 130px;
+    background-color: rgb(0, 120, 218);
+    background-size: cover;
+    background-image: url("");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white    ;
+}
+.event{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titel_event{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-bottom: 3px solid black;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    position: relative
+}
+.titel_event i{
+margin-right: 2rem;
+font-size: 2rem;
+
+}
+.cc{
+    position: absolute;
+    right: 2%;
+}
+.artical_img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.collapsed p{
+   font-size: 1.5rem;
+   width: 100%;
+}
+.artical_main_img{
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+}
+.event_artical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.artical_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .artical_div .p{
+    background-color: transparent;
+    height: max-content;
+    width: 100%;
+
+  }
+  .collapsed{
+      height: max-content;
+  }
+  .top_old{
+      width: 100%;
+      height: max-content;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+  }
+  .img{
+      width: 100%;
+      height: 90%;
+      background-size: cover;
+      background-position: center top;
+      border-radius: 1rem;
+      box-shadow: 5px 5px 10px black;
+      margin-bottom: 10px;
+  }
+  .tot_old_artical{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 220px;
+      height: 311px;
+      align-items: center;
+      padding: 10px; 
+  }
+  
+  .tot_old_artical:hover{
+      transform: scale(1.05);
+  }
+  .preloder.remove{
+      display: none;
+  }
+  #day_list{
+    height: 40vh;
+    overflow-y: scroll;
+    width:5rem ;
+  }
+  #day_input{
+    background-color: rgb(36, 75, 250);
+  }
+  #mounth_input{
+    background-color: rgb(36, 75, 250);
+  }
+  .inpout_day_mounth{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .event_artical h1{
+margin:5rem;
+color: brown;
+text-shadow: 1px 1px 2px black;
+  }
+  .event_artical h1 i{
+padding-right: 1rem;
+  }
+.view_all1 *{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: max-content;
+      margin: 10px;
+      letter-spacing: 3px;
+      font-weight: 800;
+      
+  }
+  .view_all1{
+      display: none;
+  }
+.event{
+    display: block;
+}
+.view_all_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: max-content;
+    display: none;
+}
+.home_bar{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-top: 10px double rgba(0, 0, 0, 0.658);
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: blue;
+    cursor: pointer;
+}
+
+.view_all_con{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.view_all_con h1{
+margin:5rem;
+color: brown;
+text-shadow: 1px 1px 2px black;
+}
+.view_all_con .alert{
+    width: 100%;
+    color: black;
+    
+}
+.img_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px double black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: white ;
+}
+.img_info *{
+    padding: 0;
+    margin: 0;
+}
+.see{
+    padding: 5px;
+    
+}
+.input_range{
+    display: none;
+}
+#filter_search{
+    display: none;
+}
+.filter_con_name{
+    display: none;
+}
+
+/* onlode......................... */
+.top.onlode{
+    height: 100vh;
+    justify-content: center;
+    
+    
+}
+.top.onlode .on_this_day{
+    border: none;
+    opacity: 0;
+}
+.top.onlode .n{
+    display: none;
+}
+.top.onlode .img1{
+    z-index: 800;
+    transform: scale(200);
+    margin-right: -8rem;
+    
+
+}
+/* media responsib */
+@media screen and (max-width: 1118px) {
+    .on_this_day{
+        padding-left: 2%;
+        font-size: 1.2rem;
+        padding-right: 5px;
+    }
+  }
+  @media screen and (max-width: 1006px) {
+      .n{
+          padding-left: 1rem;
+          padding-right: 1rem;
+          font-size: 1.2rem;
+      }
+  }
+  @media screen and (max-width: 1006px) {
+      .sharch p{
+          font-size: 2rem;
+      }
+  }
+  @media screen and (max-width: 1000px){
+    .artical_main_img{
+        width: 7rem;
+        height: 7rem;
+    }
+    .artical_div .p{
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 810px) {
+      .n{
+          display: none;
+      }
+      .on_this_day{
+          font-size: 2.5rem;
+          padding-left: 6%;
+          border-right: none;
+      }
+  }
+  @media screen and (max-width: 760px) {
+    .sharch p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .collapsed p{
+        font-size: 1.2rem;
+    }
+  }
+  @media screen and (max-width: 670px){
+    .artical_div .p{
+        font-size: 9px;
+    }
+    .artical_main_img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .artical_div b{
+        font-size: .7rem;
+    }
+  }
+  @media screen and (max-width: 570px){
+    .sharch p{
+        font-size: 1.1rem;
+  }
+  .this_day{
+      height: 11vh;
+      gap: 2rem;
+  }
+}
+@media screen and (max-width: 404px){
+    .this_day{
+        gap: 1rem;
+    }
+    .this_day .h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 467px){
+#holiday .titel_event h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.titel_event i{
+    margin-right: 1rem;
+}
+.sharch p{
+    font-size: 1.5rem;
+}
+.cc{
+    right: -1%;
+}
+.on_this_day{
+    font-size: 2rem;
+}
+}
+@media screen and (max-width: 390px){
+    .artical_div .p{
+        font-size: 7px;
+    }
+    .artical_main_img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .artical_div b{
+        font-size: .5rem;
+    }
+    .alert{
+        padding: 7px;
+    }
+  }
+@media screen and (max-width: 389px){
+#death .titel_event h1,#birth .titel_event h1{
+font-size: 1.5rem;
+}
+
+}

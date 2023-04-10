@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="on this day.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+  <title>@ On This Day</title>
+</head>
+
+<body>
+  <nav class="top onlode">
+    <div class="on_this_day">
+      <div class="img1"></div>On This Day
+    </div>
+    <div class="history n"><i class="bi bi-hourglass-split"></i><a href="#event_artical"> History</a> </div>
+    <div class="sport n"> <i class="bi bi-controller"></i><a href="#births">BirthDays</a></div>
+    <div class="music n"> <i class="bi bi-music-note-beamed"></i><a href="#deaths"> Deaths</a></div>
+    <div class="film_tv n"> <i class="bi bi-film"> </i> <a href="#holiday_artical"> Holiday</a></div>
+  </nav>
+  <div class="mid">
+    <div class="sharch">
+      <p>It's a good day to look back on some good days.</p>
+      <div class="inpout_day_mounth">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" id="day_input" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Day
+          </button>
+          <ul class="dropdown-menu" id="day_list">
+            <li><a class="dropdown-item d" href="#">1</a></li>
+            <li><a class="dropdown-item d" href="#">2</a></li>
+            <li><a class="dropdown-item d" href="#">3</a></li>
+            <li><a class="dropdown-item d" href="#">4</a></li>
+            <li><a class="dropdown-item d" href="#">5</a></li>
+            <li><a class="dropdown-item d" href="#">6</a></li>
+            <li><a class="dropdown-item d" href="#">7</a></li>
+            <li><a class="dropdown-item d" href="#">8</a></li>
+            <li><a class="dropdown-item d" href="#">9</a></li>
+            <li><a class="dropdown-item d" href="#">10</a></li>
+            <li><a class="dropdown-item d" href="#">11</a></li>
+            <li><a class="dropdown-item d" href="#">12</a></li>
+            <li><a class="dropdown-item d" href="#">13</a></li>
+            <li><a class="dropdown-item d" href="#">14</a></li>
+            <li><a class="dropdown-item d" href="#">15</a></li>
+            <li><a class="dropdown-item d" href="#">16</a></li>
+            <li><a class="dropdown-item d" href="#">17</a></li>
+            <li><a class="dropdown-item d" href="#">18</a></li>
+            <li><a class="dropdown-item d" href="#">19</a></li>
+            <li><a class="dropdown-item d" href="#">20</a></li>
+            <li><a class="dropdown-item d" href="#">21</a></li>
+            <li><a class="dropdown-item d" href="#">22</a></li>
+            <li><a class="dropdown-item d" href="#">23</a></li>
+            <li><a class="dropdown-item d" href="#">24</a></li>
+            <li><a class="dropdown-item d" href="#">25</a></li>
+            <li><a class="dropdown-item d" href="#">26</a></li>
+            <li><a class="dropdown-item d" href="#">27</a></li>
+            <li><a class="dropdown-item d" href="#">28</a></li>
+            <li><a class="dropdown-item d" href="#">29</a></li>
+            <li><a class="dropdown-item d" href="#">30</a></li>
+            <li><a class="dropdown-item d" href="#">31</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" id="mounth_input" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Mounth
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item m" href="#">1</a></li>
+            <li><a class="dropdown-item m" href="#">2</a></li>
+            <li><a class="dropdown-item m" href="#">3</a></li>
+            <li><a class="dropdown-item m" href="#">4</a></li>
+            <li><a class="dropdown-item m" href="#">5</a></li>
+            <li><a class="dropdown-item m" href="#">6</a></li>
+            <li><a class="dropdown-item m" href="#">7</a></li>
+            <li><a class="dropdown-item m" href="#">8</a></li>
+            <li><a class="dropdown-item m" href="#">9</a></li>
+            <li><a class="dropdown-item m" href="#">10</a></li>
+            <li><a class="dropdown-item m" href="#">11</a></li>
+            <li><a class="dropdown-item m" href="#">12</a></li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-primary" id="search">Sharch </button>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="main_contener">
+    <div class="this_day">
+      <div class="tag_date">
+        <p style="margin: 0;">March</p>
+        <h1>28</h1>
+      </div>
+      <h1 class="h1">Today in History</h1>
+    </div>
+    <div class="event">
+      <div class="titel_event"><i class="bi bi-hourglass-split"></i>
+        <h1>History Event</h1><i class="bi bi-arrow-right-circle cc view_all"></i>
+      </div>
+      <div class="event_artical">
+        <div class="preloder">
+          <p class="placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-10"></span>
+          </p>
+          <p class="placeholder-glow">
+            <span class="placeholder col-3"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-7"></span>
+          </p>
+
+        </div>
+        <div class="accordion accordion-flush" id="event_artical">
+          <!-- <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <div class="artical_img"
+                                    style="background-image: url(https://rukminim1.flixcart.com/image/416/416/kplisnk0/painting/q/y/2/13-5-198164-netaji-pipilika-original-imag3sz5mrufgyhf.jpeg?q=70);">
+                                </div>
+                                <p>amit barman</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="display: flex; flex-direction: row;">
+                                <div class="artical_main_img"
+                                    style="background-image: url(https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_1179273316.jpg);">
+                                </div>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque exercitationem
+                                    voluptas, fuga obcaecati maiores, veritatis tenetur repellat fugiat nemo veniam
+                                    aliquam quas ut expedita quo deleniti illo modi deserunt aliquid? <a href="">Read
+                                        More</a></p>
+                            </div>
+                        </div>
+                    </div> -->
+          <!-- example -->
+          <!-- <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <div class="artical_img"
+                                    style="background-image: url(https://rukminim1.flixcart.com/image/416/416/kplisnk0/painting/q/y/2/13-5-198164-netaji-pipilika-original-imag3sz5mrufgyhf.jpeg?q=70);">
+                                </div>
+                                <p>amit barman</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="display: flex; flex-direction: row; justify-content: space-evenly;">
+                                <div class="artical_main_img"
+                                    style="background-image: url(https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_1179273316.jpg);">
+                                </div>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque exercitationem
+                                    voluptas, fuga obcaecati maiores, veritatis tenetur repellat fugiat nemo veniam
+                                    aliquam quas ut expedita quo deleniti illo modi deserunt aliquid? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nesciunt voluptas, quaerat delectus explicabo, nostrum aut modi dicta, possimus enim perspiciatis architecto. Et minus atque labore at. Omnis, culpa cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, fuga ipsa! Nisi, quibusdam ut iure eligendi libero officiis voluptas voluptates quidem praesentium quae vel ab sequi veniam at nam incidunt.<a href="">Read
+                                        More</a></p>
+                            </div>
+                        </div>
+                    </div> -->
+
+          <!-- e -->
+
+
+        </div>
+        <div class="view_all1">
+          <button type="button" class="btn btn-success" id="view_all_event">View All</button>
+        </div>
+      </div>
+    </div>
+    <div class="event birthday" id="birth">
+      <div class="titel_event"><i class="bi bi-balloon"></i>
+        <h1>Famous Birthdays</h1><i class="bi bi-arrow-right-circle cc view_all" id="births"></i>
+      </div>
+      <div class="top_old" id="birth_old">
+        <!-- <div class="tot_old_artical">
+                    <div class="img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sully-Prudhomme.jpg/220px-Sully-Prudhomme.jpg');"></div>
+                    <p>amit barman</p>
+                    <a href="">2000</a>
+                </div> -->
+
+      </div>
+      <div class="event_artical" id="births">
+        <div class="preloder">
+          <p class="placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-10"></span>
+          </p>
+          <p class="placeholder-glow">
+            <span class="placeholder col-3"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-7"></span>
+          </p>
+
+        </div>
+        <div class="accordion accordion-flush" id="birth_artical">
+
+        </div>
+        <div class="view_all1">
+          <button type="button" class="btn btn-success" id="view_all_birth">View All</button>
+        </div>
+      </div>
+    </div>
+    <div class="event death" id="death">
+      <div class="titel_event"><i class="bi bi-bookmark-heart-fill"></i>
+        <h1>On This Day Death</h1><i class="bi bi-arrow-right-circle cc view_all" id="deaths"></i>
+      </div>
+      <div class="top_old" id="death_old">
+
+      </div>
+      <div class="event_artical" id="deaths">
+        <div class="preloder">
+          <p class="placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-10"></span>
+          </p>
+          <p class="placeholder-glow">
+            <span class="placeholder col-3"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-7"></span>
+          </p>
+
+        </div>
+        <div class="accordion accordion-flush" id="death_artical">
+
+        </div>
+        <div class="view_all1">
+          <button type="button" class="btn btn-success" id="view_all_deaths">View All</button>
+        </div>
+      </div>
+    </div>
+    <div class="event holiday" id="holiday">
+
+      <div class="titel_event"><i class="bi bi-calendar-day"></i>
+        <h1>On This Day holiday</h1><i class="bi bi-arrow-right-circle cc view_all" id="holidays"></i>
+      </div>
+      <div class="event_artical" id="holidays">
+        <div class="preloder">
+          <p class="placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-10"></span>
+          </p>
+          <p class="placeholder-glow">
+            <span class="placeholder col-3"></span>
+          </p>
+
+          <p class="placeholder-wave">
+            <span class="placeholder col-7"></span>
+          </p>
+
+        </div>
+        <div class="accordion accordion-flush" id="holiday_artical">
+
+        </div>
+        <div class="view_all1">
+          <button type="button" class="btn btn-success" id="view_all_holiday">View All</button>
+        </div>
+      </div>
+    </div>
+    <div class="view_all_content">
+      <div class="titel_event"><i class="bi bi-hourglass-split"></i>
+        <h1 class="view_all_event_name">History Event</h1><i class="bi bi-arrow-right-circle cc view_all"></i>
+      </div>
+      <div class="range">
+        <div class="input_range">
+          <label for="disabledRange" class="form-label">Before Year</label>
+          <input type="range" class="form-range" id="disabledRange" disabled>
+        </div>
+
+        <div class="see">
+          2023
+        </div>
+        <div class="filter_con_name">event</div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2" type="button" id="filter">Filter</button>
+          <button class="btn btn-primary" type="button" id="filter_search" >Search</button>
+        </div>
+      </div>
+      <div class="home_bar">
+        <button type="button" class="btn btn-outline-success rounded-pill" id="home">Back To Home</button>
+        <div class="spinner-border text-info" role="status" id="loading">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+
+      </div>
+      <div class="view_all_con" id="view_all">
+
+
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="on this day.js"></script>
+<script src="on tis day animation.js"></script>
+
+
+</html>
